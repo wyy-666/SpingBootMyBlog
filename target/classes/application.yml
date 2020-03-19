@@ -1,0 +1,8 @@
+server:
+  port： 8080
+domain:
+  admin: javertWang
+  map: {key1: key1,key2: key2}
+  ips:
+    - 127.0.0.1
+    - 192.168.0.1

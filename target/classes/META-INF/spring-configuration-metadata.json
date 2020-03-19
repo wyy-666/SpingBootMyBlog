@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "domain",
+      "type": "com.javert.springbootmyblog.domain.ConfigDomain",
+      "sourceType": "com.javert.springbootmyblog.domain.ConfigDomain"
+    }
+  ],
+  "properties": [
+    {
+      "name": "domain.admin",
+      "type": "java.lang.String",
+      "sourceType": "com.javert.springbootmyblog.domain.ConfigDomain"
+    },
+    {
+      "name": "domain.ips",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.javert.springbootmyblog.domain.ConfigDomain"
+    },
+    {
+      "name": "domain.map",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.javert.springbootmyblog.domain.ConfigDomain"
+    }
+  ],
+  "hints": []
+}

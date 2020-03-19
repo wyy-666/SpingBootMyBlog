@@ -9,8 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @Autowired
     ConfigDomain configDomain;
+
     @RequestMapping("/hello")
-    public String Hello(){
-        return configDomain.getMyname();
+    public String Hello() {
+        return configDomain.toString();
     }
 }
